@@ -1,6 +1,6 @@
 package org.asarkar.adm
 
-import org.jgrapht.GraphTests
+import org.jgrapht.{Graph, GraphTests}
 import org.jgrapht.alg.matching.HopcroftKarpMaximumCardinalityBipartiteMatching
 import org.jgrapht.graph.{DefaultEdge, DefaultUndirectedGraph}
 
@@ -172,7 +172,7 @@ package object dp {
         cutouts.get(c).foreach(_.foreach(j => builder.addEdge(i, j + l)))
       }
 
-    val g = builder.buildAsUnmodifiable()
+    val g: Graph[Int, DefaultEdge] = builder.buildAsUnmodifiable()
 
     if (g.edgeSet.size < l) false
     else {
