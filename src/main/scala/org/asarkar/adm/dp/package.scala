@@ -124,7 +124,7 @@ package object dp {
    * Give an efficient algorithm to identify the index positions i and j to the maximum sum of the
    * ith through jth numbers.
    *
-   * ANSWER: See https://github.com/asarkar/epi/src/main/scala/org/asarkar/epi/dp/package.scala
+   * ANSWER: See https://github.com/asarkar/epi/tree/master/src/main/scala/org/asarkar/epi/dp/package.scala
    */
 
   /*

@@ -117,7 +117,7 @@ package object combinatorial {
   /*
    * 7-15: Implement an efficient algorithm for listing all k-element subsets of n items.
    *
-   * ANSWER: See https://github.com/asarkar/epi/src/main/scala/org/asarkar/epi/recursion/package.scala
+   * ANSWER: See https://github.com/asarkar/epi/tree/master/src/main/scala/org/asarkar/epi/recursion/package.scala
    */
 
   /*
@@ -131,7 +131,7 @@ package object combinatorial {
    * 7-17: Telephone keypads have letters on each numerical key. Write a program that generates all possible words
    * resulting from translating a given digit sequence (e.g., 145345) into letters.
    *
-   * ANSWER: See https://github.com/asarkar/epi/src/main/scala/org/asarkar/epi/strings/package.scala
+   * ANSWER: See https://github.com/asarkar/epi/tree/master/src/main/scala/org/asarkar/epi/strings/package.scala
    */
 
   /*
@@ -139,7 +139,7 @@ package object combinatorial {
    * one person into the room, or let one out. Can you arrange a sequence of 2^n steps, so that every possible
    * combination of people is achieved exactly once?
    *
-   * ANSWER: See https://github.com/asarkar/epi/src/main/scala/org/asarkar/epi/recursion/package.scala
+   * ANSWER: See https://github.com/asarkar/epi/tree/master/src/main/scala/org/asarkar/epi/recursion/package.scala
    */
 
   /*

@@ -62,7 +62,7 @@ package object data {
    * 3-21: Write a function to compare whether two binary trees are identical. Identical trees have the same key value
    * at each position and the same structure.
    *
-   * ANSWER: See https://github.com/asarkar/epi/src/main/scala/org/asarkar/epi/bintree/package.scala
+   * ANSWER: See https://github.com/asarkar/epi/tree/master/src/main/scala/org/asarkar/epi/bintree/package.scala
    */
 
   /*
@@ -133,7 +133,7 @@ package object data {
    * 3-27: Determine whether a linked list contains a loop as quickly as possible without using any extra storage.
    * Also, identify the location of the loop.
    *
-   * ANSWER: See https://github.com/asarkar/epi/src/main/scala/org/asarkar/epi/lists/package.scala
+   * ANSWER: See https://github.com/asarkar/epi/tree/master/src/main/scala/org/asarkar/epi/lists/package.scala
    */
 
   /*

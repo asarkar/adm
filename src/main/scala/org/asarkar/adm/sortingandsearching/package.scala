@@ -35,7 +35,7 @@ package object sortingandsearching {
    * that have value > 1. Space O(n), time O(n).
    *
    * If space is tight, we could sort the array in place using Quick sort, and then make one pass as follows:
-   * See https://github.com/asarkar/epi/src/main/scala/org/asarkar/epi/arrays/package.scala
+   * See https://github.com/asarkar/epi/tree/master/src/main/scala/org/asarkar/epi/arrays/package.scala
    */
 
   /*
@@ -52,7 +52,7 @@ package object sortingandsearching {
   /*
    * 4-44: Design a stack that supports push, pop, and retrieving the minimum element in constant time. Can you do this?
    *
-   * ANSWER: See https://github.com/asarkar/epi/src/main/scala/org/asarkar/epi/stacks/package.scala
+   * ANSWER: See https://github.com/asarkar/epi/tree/master/src/main/scala/org/asarkar/epi/stacks/package.scala
    */
 
   /*
