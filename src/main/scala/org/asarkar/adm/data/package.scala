@@ -152,9 +152,9 @@ package object data {
     val p = Array.fill[Int](n)(1)
     val q = Array.fill[Int](n)(1)
 
-    for ((i, j) <- (1 until n).zip(n - 2 to 0 by -1)) {
+    for (i <- 1 until n) {
       p(i) = xs(i - 1) * p(i - 1)
-      q(j) = xs(j + 1) * q(j + 1)
+      q(n - i - 1) = xs(n - i) * q(n - i)
     }
 
     (0 until n)
